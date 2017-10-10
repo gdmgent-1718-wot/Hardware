@@ -1,6 +1,6 @@
 # Number
 De 'Number'-module is een digitale display waarmee je waarden kunt tonen, zoals tijd, countdown, calculaties, ...
-![number](assets/number.png)
+![number](/rpi-flotilla/assets/number.png)
 
 # Number aanspreken
 1. Verbind de 'Light'-module met het Dock.

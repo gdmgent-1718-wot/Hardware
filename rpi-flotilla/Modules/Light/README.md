@@ -1,6 +1,6 @@
 # Light
 De 'Light'-module is een sensor waarmee je lichtniveau kan waarnemen.
-![light](assets/light.png)
+![light](/rpi-flotilla/assets/light.png)
 
 # Light aanspreken
 1. Verbind de 'Light'-module met het Dock.
