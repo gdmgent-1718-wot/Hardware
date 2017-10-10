@@ -1,0 +1,29 @@
+# Flotilla
+Onderdeel van het werkcollege WOT van 3/10 en 4/10
+
+# Installatie
+1. Ga naar de map /home/pi: `cd ../home/pi`.
+2. Maak in `/home/pi` de map `Libaries` aan: `mkdir Libaries`.
+3. Ga naar de map `Libaries`: `cd Libaries`.
+4. Kloon volgende github repo via de terminal: `git clone https://github.com/pimoroni/flotilla-python`.
+5. Ga naar de map `flotilla-python`: `cd flotilla-python`.
+6. Als je de bestanden in deze map oplijst merk je op dat er een bestand `setup.py` aanwezig is. Deze moeten we uitvoeren aan de hand van volgend commando: `sudo python3 setup.py`. 
+
+De installatie is nu afgerond.
+
+# Imports
+Om aan de slag te kunnen gaan met Flotilla met je bovenaan je code de Flotilla Libary importeren: `import flotilla`
+
+# Modules
+Flotilla bevat verschillende modules: 
+`Rainbow`, `Touch`, `Motion`, `Number`, `Colour`, `Light`, `Matrix`, `Barometer`, `Joystick`, `Dial`, `Slider`, `Motor` en `Bits`
+
+Al deze modules kun je aansluiten op het `Dock`. Om in je code aan de slag te gaan met de bovenstaande modules moet je eerst het `Dock` aanspreken: 
+
+`dock = flotilla.Client()`
+
+Daarna kan je module aanspreken. We nemen de `Weather`module als voorbeeld: 
+
+`weather = dock.first(flotilla.Weather)`
+
+Verdere documentatie kan u per module vinden via `https://github.com/pimoroni/flotilla-python/tree/master/documentation`.
