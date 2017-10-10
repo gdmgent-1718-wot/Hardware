@@ -1,20 +1,52 @@
 # Flotilla
-Onderdeel van het werkcollege WOT van 3/10 en 4/10
+Onderdeel van het werkcollege WoT
 
-# Installatie
-1. Ga naar de map /home/pi: `cd ../home/pi`.
-2. Maak in `/home/pi` de map `Libaries` aan: `mkdir Libaries`.
-3. Ga naar de map `Libaries`: `cd Libaries`.
-4. Kloon volgende github repo via de terminal: `git clone https://github.com/pimoroni/flotilla-python`.
-5. Ga naar de map `flotilla-python`: `cd flotilla-python`.
-6. Als je de bestanden in deze map oplijst merk je op dat er een bestand `setup.py` aanwezig is. Deze moeten we uitvoeren aan de hand van volgend commando: `sudo python3 setup.py`. 
+### Info
+- Contributors: **Niels Capelle & Ismail Kutlu**
+- Opleidingsonderdeel: **Web Of Things**
+- Academiejaar: **2017-2018**
+- Opleiding: **Bachelor in de Grafische en Digitale Media**
+- Afstudeerrichting: **New Media Development**
+- Opleidingsinstelling: **Arteveldehogeschool**
+
+### Installatie
+1. Ga naar de map /home/pi: 
+```
+cd ../home/pi
+```
+2. Maak in `/home/pi` de map `Libaries` aan: 
+```
+mkdir Libaries
+```
+3. Ga naar de map `Libaries`:
+```
+cd Libaries
+```
+4. Kloon volgende github repo via de terminal: 
+```
+git clone https://github.com/pimoroni/flotilla-python
+```
+5. Ga naar de map `flotilla-python`: 
+```
+cd flotilla-python
+```
+6. Als je de bestanden in deze map oplijst merk je op dat er een bestand `setup.py` aanwezig is. Deze moeten we uitvoeren aan de hand van volgend commando: 
+```
+sudo python3 setup.py
+```
 
 De installatie is nu afgerond.
 
-# Imports
+### Project updaten
+Soms krijg je foutmeldingen bij het uitvoeren van python scripts, dan kan je volgende script uitvoeren:
+```
+sudo apt-get dist-upgrade
+```
+
+### Imports
 Om aan de slag te kunnen gaan met Flotilla met je bovenaan je code de Flotilla Libary importeren: `import flotilla`
 
-# Modules
+### Modules
 Flotilla bevat verschillende modules: 
 `Rainbow`, `Touch`, `Motion`, `Number`, `Colour`, `Light`, `Matrix`, `Barometer`, `Joystick`, `Dial`, `Slider`, `Motor` en `Bits`
 
