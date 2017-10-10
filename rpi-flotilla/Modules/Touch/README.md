@@ -1,5 +1,5 @@
 # Touch
-De 'Touch'-module is een module die 4 touch knoppen bevat. Deze knoppen zijn genummerd van 1 tot 4. Iedere knop kan je appart aanspreken.
+De 'Touch'-module is een module die 4 touch knoppen bevat. Deze knoppen zijn genummerd van 1 tot 4. Iedere knop kan je apart aanspreken.
 
 # Touch aanspreken
 1. Verbind de 'Touch'-module met het Dock.
@@ -27,3 +27,6 @@ if touch.three:
 if touch.four:
 	print("Button 4 pressed!")
 `
+
+# Voorbeeld
+Het bestand `touch.py` illustreert een voorbij waarbij je het `Dock` en de `Touch`-module voor nodig hebt.
