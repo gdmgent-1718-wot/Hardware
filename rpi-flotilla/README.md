@@ -9,6 +9,12 @@ Onderdeel van het werkcollege WoT
 - Afstudeerrichting: **New Media Development**
 - Opleidingsinstelling: **Arteveldehogeschool**
 
+## Setup Raspberry Pi
+> More information: https://www.raspberrypi.org/documentation/setup/
+
+## Connect Flotilla with Raspberry Pi and docks
+![dock-setup](/rpi-flotilla/assets/dock-setup.png)
+
 ## Installatie
 1. Ga naar de map /home/pi: 
 ```
