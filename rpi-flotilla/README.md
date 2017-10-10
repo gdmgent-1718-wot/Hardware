@@ -37,11 +37,13 @@ sudo python3 setup.py
 
 De installatie is nu afgerond.
 
-## Update software in Raspbian
-Soms krijg je foutmeldingen bij het uitvoeren van python scripts, dan kan je volgende scripts uitvoeren:
+## Errors?
+### Update software in Raspbian
 ```
 sudo apt-get dist-upgrade
 ```
+### Stop service flotilla
+Soms krijg je foutmeldingen bij het uitvoeren van python scripts, dan kan je volgende scripts uitvoeren:
 ```
 sudo service flotillad stop
 ```
