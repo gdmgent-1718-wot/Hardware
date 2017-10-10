@@ -1,7 +1,7 @@
 # Flotilla
 Onderdeel van het werkcollege WoT
 
-### Info
+## Info
 - Contributors: **Niels Capelle & Ismail Kutlu**
 - Opleidingsonderdeel: **Web Of Things**
 - Academiejaar: **2017-2018**
@@ -9,7 +9,7 @@ Onderdeel van het werkcollege WoT
 - Afstudeerrichting: **New Media Development**
 - Opleidingsinstelling: **Arteveldehogeschool**
 
-### Installatie
+## Installatie
 1. Ga naar de map /home/pi: 
 ```
 cd ../home/pi
@@ -37,16 +37,16 @@ sudo python3 setup.py
 
 De installatie is nu afgerond.
 
-### Project updaten
+## Update software in Raspbian
 Soms krijg je foutmeldingen bij het uitvoeren van python scripts, dan kan je volgende script uitvoeren:
 ```
 sudo apt-get dist-upgrade
 ```
 
-### Imports
+## Imports
 Om aan de slag te kunnen gaan met Flotilla met je bovenaan je code de Flotilla Libary importeren: `import flotilla`
 
-### Modules
+## Modules
 Flotilla bevat verschillende modules: 
 `Rainbow`, `Touch`, `Motion`, `Number`, `Colour`, `Light`, `Matrix`, `Barometer`, `Joystick`, `Dial`, `Slider`, `Motor` en `Bits`
 
