@@ -4,9 +4,9 @@ De 'Number'-module is een digitale display waarmee je waarden kunt tonen, zoals 
 ![number](/rpi-flotilla/assets/number.png)
 
 # Number aanspreken
-1. Verbind de 'Light'-module met het Dock.
+1. Verbind de 'Number'-module met het Dock.
 2. Definieer het dock: `dock = flotilla.Client()`
-3. Definieer de 'Light'-module: `number = dock.first(flotilla.Number)`
+3. Definieer de 'Number'-module: `number = dock.first(flotilla.Number)`
 
 # Een nummer displayen
 ```python

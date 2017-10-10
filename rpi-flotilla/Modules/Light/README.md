@@ -11,7 +11,3 @@ De 'Light'-module is een sensor waarmee je lichtniveau kan waarnemen.
 
 # Voorbeeld
 Het bestand `light.py` illustreert een voorbij waarbij je het `Dock` en de `Light`-module voor nodig hebt.
-
-
-
-
