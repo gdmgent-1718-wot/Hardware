@@ -43,7 +43,7 @@ De installatie is nu afgerond.
 sudo apt-get dist-upgrade
 ```
 ### Stop service flotilla
-Soms krijg je foutmeldingen bij het uitvoeren van python scripts, dan kan je volgende scripts uitvoeren:
+Soms krijg je foutmeldingen bij het uitvoeren van python scripts, dan kan je volgende script uitvoeren:
 ```
 sudo service flotillad stop
 ```
