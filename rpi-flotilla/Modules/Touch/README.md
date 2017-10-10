@@ -8,25 +8,16 @@ De 'Touch'-module is een module die 4 touch knoppen bevat. Deze knoppen zijn gen
 
 # Touch knoppen aanspreken
 
-`
+```python
 if touch.one:
 	print("Button 1 pressed!")
-`
-
-`
 if touch.two:
 	print("Button 2 pressed!")
-`
-
-`
 if touch.three:
 	print("Button 3 pressed!")
-`
-
-`
 if touch.four:
 	print("Button 4 pressed!")
-`
+```
 
 # Voorbeeld
 Het bestand `touch.py` illustreert een voorbij waarbij je het `Dock` en de `Touch`-module voor nodig hebt.
