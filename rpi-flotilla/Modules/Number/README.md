@@ -1,5 +1,6 @@
 # Number
 De 'Number'-module is een digitale display waarmee je waarden kunt tonen, zoals tijd, countdown, calculaties, ...
+
 ![number](/rpi-flotilla/assets/number.png)
 
 # Number aanspreken

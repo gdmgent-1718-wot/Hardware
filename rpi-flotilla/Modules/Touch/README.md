@@ -1,5 +1,6 @@
 # Touch
 De 'Touch'-module is een module die 4 touch knoppen bevat. Deze knoppen zijn genummerd van 1 tot 4. Iedere knop kan je apart aanspreken.
+
 ![touch](/rpi-flotilla/assets/touch.png)
 
 # Touch aanspreken
