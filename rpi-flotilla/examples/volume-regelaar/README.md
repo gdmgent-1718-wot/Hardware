@@ -8,4 +8,4 @@ Voor het project VolumeRegelaar heb je de volgende harware uit de Flotilla-doos 
 - `Rainbow`
 
 # Uitvoeren
-Om het project te laten runnen ga je via de terminal naar de map van het project. Daarna voer je volgend commando uit: `python3 VolumeRegelaar.py`.
+Om het project te laten runnen ga je via de terminal naar de map van het project. Daarna voer je volgend commando uit: `python3 volume-regelaar.py`.

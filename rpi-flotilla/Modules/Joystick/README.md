@@ -10,6 +10,8 @@ De joystick module is een analoge joystick met een klikknop. Het is ideaal om te
 4. x -en y-waarden oproepen: 
     - x-waarde detecteren: `joystick.x`
     - y-waarde detecteren: `joystick.y`
+5. Je kan ook het assenstelsel draaien: `joystick.rotation`
+6. Als laatste heb je de drukknop: `joystick.button`
 
 # Voorbeeld
 Het bestand `joystick.py` illustreert een voorbij waarbij je het `Dock` en de `Joystick`-module voor nodig hebt.
