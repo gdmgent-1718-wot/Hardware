@@ -57,6 +57,17 @@ mario_jump = [
     Bk, Bk, Bk, Bk, Bk, Bk, Bk, Bk    
 ]
 
+blank = [
+    Bk, Bk, Bk, Bk, Bk, Bk, Bk, Bk,
+    Bk, Bk, Bk, Bk, Bk, Bk, Bk, Bk,
+    Bk, Bk, Bk, Bk, Bk, Bk, Bk, Bk,
+    Bk, Bk, Bk, Bk, Bk, Bk, Bk, Bk,
+    Bk, Bk, Bk, Bk, Bk, Bk, Bk, Bk,
+    Bk, Bk, Bk, Bk, Bk, Bk, Bk, Bk,
+    Bk, Bk, Bk, Bk, Bk, Bk, Bk, Bk,
+    Bk, Bk, Bk, Bk, Bk, Bk, Bk, Bk
+]
+
 sense.set_pixels(mario)
 left = False
 jump = False 
@@ -85,6 +96,7 @@ while True:
         
     except (KeyboardInterrupt, SystemExit):
         print('Application closed.')
+        sense.set_pixels(blank)
         try:
             sys.exit(0)
         except SystemExit:
