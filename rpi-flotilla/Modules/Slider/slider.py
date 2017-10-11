@@ -2,15 +2,15 @@ import flotilla
 import time
 
 dock = flotilla.Client()
-dial = dock.first(flotilla.Dial)
+slider = dock.first(flotilla.Slider)
 
 try:
   while True:
-    pos = int(dial.position)
+    pos = int(slider.position)
     if pos > 512:
-    	print("Luid")
+	    print("Veel!")
     if 0 < pos < 512:
-    	print("Stil")
+	    print("Weinig!")
     time.sleep(1)
 
 except KeyboardInterrupt:
