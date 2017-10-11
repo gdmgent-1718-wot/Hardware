@@ -1,3 +1,20 @@
+"""
+==============================================
+Colour - Flotilla
+==============================================
+Example with the 'Colour'-module
+----------------------------------------------
+Course:     Web Of Things (WOT)
+Option:     New Media Development
+Department: Graphic and Digital Media
+College:    Artevelde University College Ghent
+----------------------------------------------
+Authors:
+    - Ismail Kutlu
+    - Niels Cappelle
+==============================================
+"""
+
 import flotilla
 import time
 
