@@ -12,6 +12,15 @@
 - Raspberry pi Camera V2
 - Sensehat
 
+### Packages to download
+- sense-hat drivers
+`sudo apt-get install sense-hat`
+- libav-tools (stopmotion)
+`sudo apt-get libav-tools`
+- imagemagic (gif)
+`sudo apt-get install imagemagick -y`
+
+
 ### Usefull links
 - [Stopmotion tutorial](https://projects.raspberrypi.org/en/projects/push-button-stop-motion)
 - [push button stopmotion](https://projects.raspberrypi.org/en/projects/push-button-stop-motion/)
