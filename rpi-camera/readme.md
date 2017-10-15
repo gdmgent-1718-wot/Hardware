@@ -16,7 +16,7 @@
 - sense-hat drivers
 `sudo apt-get install sense-hat`
 - libav-tools (stopmotion)
-`sudo apt-get libav-tools`
+`sudo apt-get install libav-tools`
 - imagemagic (gif)
 `sudo apt-get install imagemagick -y`
 
